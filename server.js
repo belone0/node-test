@@ -16,6 +16,10 @@ server.post("/videos", async (request, reply) => {
     return reply.status(201).send()
 })
 
+server.get("/", async (request, reply) => {
+    return { hello: "Bom dia rapazes" }
+})
+
 server.get("/videos", async (request, reply) => {
 
     const search = request.query.search
