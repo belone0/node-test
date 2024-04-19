@@ -1,5 +1,11 @@
 Node backend test
 
-deployed on render.com
+deployed docker image on render.com
 
-postgres neon
+https://node-do-zero-server-latest.onrender.com
+
+postgres - neon
+
+
+
+

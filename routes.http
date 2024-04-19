@@ -1,19 +1,19 @@
-POST https://node-test-g2g8.onrender.com/videos
+POST https://node-do-zero-server-latest.onrender.com/videos
 Content-Type: application/json
 
 {
-    "title": "adasdasd",
+    "title": "ui",
     "description": "This is a video",
     "duration": 180
 }
 
 ###
 
-get https://node-test-g2g8.onrender.com/videos?search=
+get https://node-do-zero-server-latest.onrender.com/videos?search=
 
 ###
 
-put https://node-test-g2g8.onrender.com/videos/f582b22d-ab13-426f-8101-25778a8282d4
+put https://node-do-zero-server-latest.onrender.com/videos/f582b22d-ab13-426f-8101-25778a8282d4
 Content-Type: application/json
 
 {
@@ -24,4 +24,4 @@ Content-Type: application/json
 
 ###
 
-DELETE https://node-test-g2g8.onrender.com/videos/f582b22d-ab13-426f-8101-25778a8282d4
+DELETE https://node-do-zero-server-latest.onrender.com/videos/f582b22d-ab13-426f-8101-25778a8282d4
