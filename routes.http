@@ -1,19 +1,19 @@
-POST http://localhost:3000/videos
+POST https://node-test-g2g8.onrender.com/videos
 Content-Type: application/json
 
 {
-    "title": "My Video 2",
+    "title": "adasdasd",
     "description": "This is a video",
     "duration": 180
 }
 
 ###
 
-get http://localhost:3000/videos?search=
+get https://node-test-g2g8.onrender.com/videos?search=
 
 ###
 
-put http://localhost:3000/videos/f582b22d-ab13-426f-8101-25778a8282d4
+put https://node-test-g2g8.onrender.com/videos/f582b22d-ab13-426f-8101-25778a8282d4
 Content-Type: application/json
 
 {
@@ -24,4 +24,4 @@ Content-Type: application/json
 
 ###
 
-DELETE http://localhost:3000/videos/f582b22d-ab13-426f-8101-25778a8282d4
+DELETE https://node-test-g2g8.onrender.com/videos/f582b22d-ab13-426f-8101-25778a8282d4
