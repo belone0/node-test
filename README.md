@@ -6,6 +6,3 @@ https://node-do-zero-server-latest.onrender.com
 
 postgres - neon
 
-
-
-
